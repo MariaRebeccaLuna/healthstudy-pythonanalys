@@ -1,0 +1,36 @@
+### Introduktion:
+Du är dataanalytiker på ett forskningsinstitut. Du har fått tillgång till data från en hälsostudie här ovanför med information om deltagarnas ålder, kön, vikt, längd, blodtryck, kolesterolnivå, rökvanor och om de har en viss sjukdom. Din uppgift är att analysera datan i Python och presentera dina resultat i en Jupyter Notebook. All kod, grafer och förklaringar ska finnas direkt i notebooken.
+
+## Del 1 - Grundläggande analys och statistik:
+#### Beskrivande analys:
+- Räkna ut medel, median, min och max för: age, weight, height, systolic_bp, cholesterol.
+- Skapa minst 3 olika grafert.(tex. histogram över blodtryck, boxplot över vikt per kön, stapeldiagram över andelen rökare)
+
+#### Simulering kopplad till caset:
+- Beräkna andelen personer i datacaset som har sjukdomen.
+- Använd numpy för att simulera 1000 slumpade personer med samma sannolikhet för sjukdom.
+- Jämför den simulerade andelen med den verkliga andelen i datasetet.
+
+#### Konfidensintervall:
+- Beräkna konfidensintervall för medelvärdet av systolic_bp.
+
+#### Hypotesprövning:
+- Testa hypotesen: "Rökare har högre medel-blodtryck än icke-rökare".
+- Använd en av metoderna vi gått igenom.
+- Förklara kort resultatet i en markdown-ruta.
+
+## Del 2 - Fördjupning och pipeline:
+#### Strukturera koden:
+- Flytta delar av din kod från del 1 till funktioner och moduler.
+- Skapa minst en klass som kan utföra någon del av analysen.
+
+#### Linjär algebra i praktiken:
+- Använd numpy eller scikit-learn för en analys som bygger på matriser/vektorer. EXEMPEL: "En enkel linjär regression för att förutsäga blodtryck från ålder och vikt". "PCA för att hitta mönster i datan".
+
+#### Utökad analys och visualisering:
+- Lägg till minst en ny analys eller graf som ger en djupare förståelse.
+
+#### Dokumentation:
+- Skriv docstrings till dina funktioner/klasser.
+- Använd markdown-rutor för att förklara vad du gör och varför.
+
