@@ -1,0 +1,3 @@
+Detta projekt analyserar ett hälsodataset (health_study_dataset.csv) med hjälp av Python. Syftet är att tillämpa grundläggande statistiska metoder, visualiseringar, simuleringar och hypotesprövning för att dra slutsatser om hälsa och riskfaktorer, såsom blodtryck, rökning och sjukdom. Resultaten ger insikt i samband mellan rökning, blodtryck och sjukdom, samt demonstrerar hur hypotesprövning och konfidensintervall används i praktiken.
+
+Versionen av python so används är: 3.13.7
